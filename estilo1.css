@@ -1,0 +1,31 @@
+body{
+    margin:0;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:#1e1e2f;
+}
+
+.container{
+    display:flex;
+    flex-direction:column; /* coloca um embaixo do outro */
+    align-items:center;
+}
+
+.titulo{
+    color:white;
+    margin-bottom:20px;
+}
+
+.login-box{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}

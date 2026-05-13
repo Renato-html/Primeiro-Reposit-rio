@@ -1,0 +1,206 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    display:flex;
+    height:100vh;
+    background:#4b8df8;
+}
+
+/* barra lateral */
+
+.sidebar{
+    width:80px;
+    background:#0047ff;
+}
+
+/* conteúdo principal */
+
+.main{
+    flex:1;
+    position:relative;
+}
+
+/* topo */
+
+.topbar{
+    height:70px;
+    background:rgba(255,255,255,0.1);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:0 20px;
+}
+
+/* logo esquerda */
+
+.logo-esquerda{
+    display:flex;
+    align-items:center;
+    gap:15px;
+
+    color:white;
+}
+
+.quadrados{
+    width:45px;
+    height:45px;
+
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:2px;
+}
+
+.q{
+    width:100%;
+    height:100%;
+}
+
+.vermelho{
+    background:red;
+}
+
+.amarelo{
+    background:yellow;
+}
+
+.azul{
+    background:blue;
+}
+
+.verde{
+    background:lime;
+}
+
+.sus{
+    color:#003c8f;
+    font-size:30px;
+    font-weight:bold;
+}
+
+/* titulo */
+
+.titulo-login{
+    position:absolute;
+
+    top:45px;
+    left:50%;
+
+    transform:translateX(-50%);
+
+    background:white;
+
+    padding:10px 35px;
+
+    border-radius:15px;
+
+    font-size:20px;
+    font-weight:bold;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* caixa login */
+
+.login-box{
+    width:200px;
+
+    margin:120px auto;
+
+    background:rgba(255,255,255,0.15);
+
+    padding:40px 20px;
+
+    border-radius:15px;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+
+    gap:10px;
+
+    backdrop-filter:blur(3px);
+}
+
+.login-box input{
+    width:100%;
+    padding:10px;
+
+    border:none;
+    border-radius:3px;
+
+    outline:none;
+}
+
+/* links */
+
+.links{
+    width:100%;
+
+    display:flex;
+    justify-content:space-between;
+
+    font-size:10px;
+}
+
+.links a{
+    color:white;
+    text-decoration:none;
+}
+
+/* OU */
+
+.ou{
+    color:white;
+    margin:20px 0;
+}
+
+/* icones */
+
+.icones{
+    display:flex;
+    gap:10px;
+}
+
+.icone{
+    width:20px;
+    height:20px;
+
+    border-radius:4px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    color:white;
+    font-size:12px;
+    font-weight:bold;
+}
+
+.google{
+    background:white;
+    color:red;
+}
+
+.windows{
+    background:#00a2ff;
+}
+
+.facebook{
+    background:#1877f2;
+}
+
+/* registrar */
+
+.registrar{
+    margin-top:10px;
+
+    color:white;
+    text-decoration:none;
+}
