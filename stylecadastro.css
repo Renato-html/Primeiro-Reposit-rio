@@ -10,7 +10,7 @@
       display:flex;
       justify-content:center;
       align-items:center;
-      background: linear-gradient(135deg, #4f46e5, #7c3aed, #ccc, #91ff00, #ff0080);
+      background: linear-gradient(0deg, #50befd, #566fff);
     }
 
     .login-container{
@@ -76,6 +76,57 @@
     }
 
     .footer a{
-      color:#7c3aed;
+      color:#009af3;
       text-decoration:none;
     }
+    .checkbox-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.checkbox-area label {
+    color: #777777;
+}
+.checkbox-area {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.links-termos {
+    display: flex;
+    flex-direction: horizontal;
+    gap: 5px;
+    margin-left: 22px;
+}
+
+.links-termos a {
+    color: #506afd;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.links-termos a:hover {
+    text-decoration: underline;
+}
+.btn-confirmar{
+    background-color: #506aff;
+    color: white;
+    border: none;
+    text-align:center;
+    text-decoration:none;
+    padding: 10px 25px;
+    border-radius: 10px; /* borda arredondada */
+    cursor: pointer;
+    font-size: 16px;
+    transition:0.3s
+}
+
+.btn-confirmar:hover{
+    background-color: #3445a5;
+    
+}
