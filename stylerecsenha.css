@@ -6,127 +6,70 @@
 }
 
 body{
-  background: #1ee6a3;
   height: 100vh;
-}
-
-/* TOPO */
-
-.topo{
-  background: #111320;
-  height: 170px;
-
-  border-bottom-left-radius: 100% 40px;
-  border-bottom-right-radius: 100% 40px;
-
-  position: relative;
-
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(135deg, #4f46e5, #7c3aed);
 }
-
-.voltar{
-  position: absolute;
-  left: 20px;
-  top: 20px;
-
-  color: white;
-  font-size: 30px;
-
-  cursor: pointer;
-}
-
-.logo{
-  color: white;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.logo span{
-  color: #1ee6a3;
-}
-
-/* CONTEÚDO */
 
 .container{
-  padding: 30px 20px;
+  width: 350px;
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
 
 h1{
   text-align: center;
-  margin-bottom: 30px;
-
-  color: #111;
-  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
 }
 
-.input-box{
+p{
+  text-align: center;
   margin-bottom: 25px;
+  color: #666;
+}
+
+.input-group{
+  margin-bottom: 20px;
+}
+
+label{
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #444;
 }
 
 input{
   width: 100%;
-  height: 60px;
-
-  border: none;
-  border-radius: 10px;
-
-  padding: 0 20px;
-
-  font-size: 20px;
-
-  background: #f2f2f2;
-
-  outline: none;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
 
-/* BOTÕES SMS E EMAIL */
-
-.opcoes{
-  display: flex;
-  gap: 15px;
-
-  margin-bottom: 25px;
-}
-
-.opcao{
-  border: 2px solid #111;
-  border-radius: 20px;
-
-  padding: 8px 25px;
-
-  font-weight: bold;
-
-  cursor: pointer;
-
-  background: transparent;
-}
-
-.ativo{
-  background: #111320;
-  color: white;
-}
-
-/* BOTÃO PRINCIPAL */
-
-.btn{
+button{
   width: 100%;
-  height: 60px;
-
-  background: #000;
-  color: white;
-
+  padding: 12px;
   border: none;
-  border-radius: 10px;
-
-  font-size: 22px;
-
+  background: #4f46e5;
+  color: white;
+  border-radius: 8px;
   cursor: pointer;
-
-  margin-top: 180px;
+  font-size: 16px;
 }
 
-.btn:hover{
-  opacity: 0.9;
+button:hover{
+  background: #4338ca;
+}
+
+.voltar{
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #4f46e5;
 }
