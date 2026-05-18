@@ -72,16 +72,29 @@
       box-shadow:0 0 8px rgba(124,58,237,0.3);
     }
 
-    .login-btn{
-      width:100%;
-      padding:12px;
-      border:none;
-      border-radius:8px;
-      background:#506afd;
-      color:white;
-      font-size:16px;
-      cursor:pointer;
-      transition:0.3s;
+
+.login-btn{
+    width:180px;
+    padding:12px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    margin:20px auto;
+
+    border:none;
+    border-radius:10px;
+
+    background:#4254ff;
+    color:white;
+
+    font-size:18px;
+    cursor:pointer;
+
+    transition: 0.3s;
+    text-decoration: none;
+
     }
 
     .login-btn:hover{
@@ -105,7 +118,7 @@
 }
 
 .links-login a {
-    color: #4f5dff;
+    color: #4f5dff;;
     text-decoration: none;
     font-size: 14px;
 }
